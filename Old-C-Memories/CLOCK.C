@@ -16,17 +16,17 @@ settextstyle(4,0,5);
 outtextxy(160,100,"ALARM CLOCK");
 setcolor(RED);
 settextstyle(2,0,4);
-outtextxy(620,430,"Developed By Sushil & Namit ");
+outtextxy(620,430,"Developed By Sushil");
 for(i=620;i>=250;i--)
 {
 setcolor(RED);
-outtextxy(i,430,"Developed By Sushil & Namit");
+outtextxy(i,430,"Developed By Sushil");
 delay(7);
 setcolor(WHITE);
-outtextxy(i,430,"Developed By Sushil & Namit");
+outtextxy(i,430,"Developed By Sushil");
 }
 setcolor(RED);
-outtextxy(250,430,"Developed By Sushil & Namit");
+outtextxy(250,430,"Developed By Sushil");
 outtextxy(250,450,"Press any key to continue...........");
 getch();
 }
@@ -84,7 +84,7 @@ settextstyle(2,0,5);
 outtextxy(272,100,"Quartz");
 settextstyle(2,0,2);
 outtextxy(279,280,"Created By:-");
-outtextxy(275,288,"Sushil & Namit");
+outtextxy(275,288,"Sushil");
 for(i=0;i<=360;i+=30)
 {
 d=(i*3.14159)/180;
